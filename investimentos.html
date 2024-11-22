@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investimentos</title>
+    <link rel="icon" href="https://i.postimg.cc/VL3Rd1Nr/husky-png.png"
+    type="image/husky.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #4169E1;
+            color: white;
+            padding: 1em;
+            text-align: center;
+            position: relative;
+        }
+
+        .mascot-left,
+        .mascot-right {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 10%;
+            height: auto;
+        }
+
+        .mascot-left {
+            left: 5px;
+        }
+
+        .mascot-right {
+            right: 5px;
+        }
+
+        .section {
+            margin: 30px 0;
+            padding: 30px;
+            border-radius: 12px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h1 {
+            font-size: 2rem;
+            color: #4169E1;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .section ul li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .section ul ul {
+            padding-left: 20px;
+            list-style-type: square;
+        }
+
+        .footer {
+            background-color: #4169E1;
+            color: white;
+            padding: 40px 0;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .footer-section {
+            width: 45%;
+        }
+
+        .footer-section h3 {
+            font-size: 1.5rem;
+            color: #ECF0F1;
+            margin-bottom: 15px;
+        }
+
+        .footer-section p {
+            font-size: 1rem;
+            color: #BDC3C7;
+            line-height: 1.6;
+        }
+
+        .footer-section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul li a {
+            color: #ECF0F1;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        .footer-section ul li a:hover {
+            color: #3498DB;
+        }
+
+        .footer-bottom {
+            background-color: rgb(41, 60, 78);
+            padding: 20px 0;
+        }
+
+        .footer-bottom p {
+            margin: 0;
+            font-size: 1rem;
+            color: #BDC3C7;
+        }
+
+        @media (max-width: 768px) {
+            .footer-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer-section {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+
+        /* Navbar */
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            width: 100%;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-nav .btn {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Poupança e Investimentos</h1>
+    </header>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary mb-4">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav">
+                        <a class="btn btn-outline-primary" aria-current="page"
+                            href=index.html#">Home</a>
+                        <a class="btn btn-outline-primary" href="sobre.html#">Sobre</a>
+                        <a class="btn btn-outline-primary" href="testeprojecao.html#">Projeção de Investimentos</a>
+                        <a class="btn btn-outline-primary" href="gastosmensais.html#">Calculadora de Gastos</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+            <h1>Como Economizar para o Futuro e Investir de Forma Inteligente</h1>
+            <p>A gestão do orçamento mensal é essencial para alcançar a estabilidade financeira e garantir um futuro
+                tranquilo. Além de cobrir as necessidades diárias e resolver imprevistos, é fundamental reservar um
+                espaço do seu orçamento para poupança e investimentos. Com uma boa organização, é possível não só
+                equilibrar as contas do presente, mas também garantir que o futuro financeiro seja mais seguro e
+                próspero. Aqui estão algumas dicas para ajudá-lo a começar sua jornada de poupança e investimentos:</p>
+
+            <h2>1. Defina Seus Objetivos Financeiros de Longo Prazo</h2>
+            <p>Antes de começar a poupar ou investir, é importante entender qual é o seu objetivo financeiro. Você
+                está guardando dinheiro para uma emergência, para a aposentadoria ou para uma grande compra no futuro?
+                Ao definir esses objetivos, você consegue planejar melhor como alocar sua poupança e seus investimentos.
+                Defina metas claras, como "economizar R$ 10.000,00 para a compra da casa própria" ou "guardar o
+                suficiente
+                para a aposentadoria nos próximos 30 anos".</p>
+
+            <h2>2. Reserve uma Porção de Sua Renda para Poupança e Investimentos</h2>
+            <p>Com a regra 50/30/20, é possível criar um equilíbrio saudável entre as despesas e a construção de um
+                futuro
+                financeiro seguro. A regra sugere que você divida sua renda da seguinte maneira:</p>
+            <ul>
+                <li><strong>50% para necessidades:</strong> despesas essenciais, como alimentação, aluguel, transporte,
+                    etc.</li>
+                <li><strong>30% para desejos:</strong> lazer, viagens, entretenimento, compras não essenciais.</li>
+                <li><strong>20% para poupança e investimentos:</strong> essa parte é dedicada ao futuro, seja para uma
+                    emergência ou para investimentos que ajudem a aumentar sua riqueza ao longo do tempo.</li>
+            </ul>
+            <p><strong>Exemplo:</strong> Se sua receita mensal for R$ 3.000,00, a divisão seria:</p>
+            <ul>
+                <li><strong>50% para necessidades:</strong> R$ 1.500,00</li>
+                <li><strong>30% para desejos:</strong> R$ 900,00</li>
+                <li><strong>20% para poupança e investimentos:</strong> R$ 600,00</li>
+            </ul>
+
+            <h2>3. Comece com a Poupança e Passe para Investimentos</h2>
+            <p>Se você ainda não tem o hábito de poupar, comece reservando uma quantia mensal em uma conta de poupança
+                simples. Embora a poupança tenha um rendimento baixo, ela serve como uma reserva inicial para
+                emergências.
+                Depois de criar uma reserva de emergência, você pode começar a explorar investimentos, como fundos de
+                investimento, ações ou Tesouro Direto, que oferecem maiores rendimentos ao longo do tempo.</p>
+
+            <h2>4. Acompanhe Seu Progresso e Reavalie Seus Investimentos</h2>
+            <p>Assim como você acompanha suas despesas e receitas, é fundamental monitorar o desempenho de seus
+                investimentos. Use ferramentas ou aplicativos financeiros que ajudem a acompanhar seus investimentos e
+                certifique-se de revisar sua carteira regularmente. Se você estiver investindo de forma consistente, mas
+                não obtendo o retorno esperado, pode ser necessário ajustar sua estratégia.</p>
+
+            <h2>5. Crie um Fundo de Emergência</h2>
+            <p>Antes de se aventurar em investimentos de maior risco, é importante ter uma reserva financeira de
+                emergência.
+                O ideal é que você tenha pelo menos 3 a 6 meses de despesas básicas guardados em uma conta de fácil
+                acesso, como uma poupança. Isso garante que você não precise recorrer a empréstimos ou ao uso de crédito
+                em momentos de imprevistos, como a perda de um emprego ou uma despesa inesperada.</p>
+
+            <h2>6. Aproveite o Poder dos Juros Compostos</h2>
+            <p>Uma das maiores vantagens de começar a investir cedo é o poder dos juros compostos. Com o tempo, seus
+                investimentos começam a render mais, criando um ciclo de crescimento contínuo. Por exemplo, ao investir
+                R$ 600,00 por mês, esse valor, se bem aplicado, pode render muito mais ao longo dos anos, ajudando a
+                alcançar seus objetivos financeiros mais rapidamente.</p>
+
+            <h2>Conclusão:</h2>
+            <p>Poupar e investir de forma eficiente é essencial para garantir que seu futuro financeiro seja seguro e
+                confortável. Ao seguir essas dicas e ter disciplina, você conseguirá atingir seus objetivos de poupança
+                e construir um portfólio de investimentos que trabalhe a seu favor. Lembre-se de que a chave para o
+                sucesso financeiro está na consistência e no planejamento. Comece agora, com pequenas mudanças, e
+                observe como suas finanças podem crescer ao longo do tempo, proporcionando mais liberdade e segurança
+                para o futuro.</p>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Sobre o Dev</h3>
+                <p>Meu nome é Renato Alexandre de Aquino. Abaixo seguem alguns links para que você conheça melhor meu conhecimento e meus projetos de desenvolvimento.
+                    A Husky Finance é um dos projetos que escolhi tanto como trabalho estudantil quanto para meu portfólio. Trata-se de um projeto mais simples, mas 
+                    que envolve o uso de back-end, front-end e boas práticas de desenvolvimento, como metodologias ágeis e uma boa organização.
+                </p>
+                <div class="social-icons mt-3">
+                    <a href="https://github.com/Renato4qu1n0" target="_blank" class="btn btn-outline-light btn-lg me-2">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/renato-alexandre-aquino/" target="_blank" class="btn btn-outline-light btn-lg me-2">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.seusite.com" target="_blank" class="btn btn-outline-light btn-lg">
+                        <i class="bi bi-globe"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="dicas.html">Dicas Financeiras</a></li>
+                    <li><a href="testeprojecao.html">Projeção de Investimentos</a></li>
+                    <li><a href="gastosmensais.html">Calculadora de Gastos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Husky Finance.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redução de Gastos</title>
+    <link rel="icon" href="https://i.postimg.cc/VL3Rd1Nr/husky-png.png"
+    type="image/husky.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f7fc;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4169E1;
+            color: white;
+            padding: 2em;
+            text-align: center;
+            position: relative;
+        }
+
+        .section {
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 1100px;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            color: #4169E1;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .section h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .section ul li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .footer {
+            background-color: #4169E1;
+            color: white;
+            padding: 40px 0;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .footer-section {
+            width: 45%;
+        }
+
+        .footer-section h3 {
+            font-size: 1.5rem;
+            color: #ECF0F1;
+            margin-bottom: 15px;
+        }
+
+        .footer-section p {
+            font-size: 1rem;
+            color: #BDC3C7;
+            line-height: 1.6;
+        }
+
+        .footer-section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul li a {
+            color: #ECF0F1;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        .footer-section ul li a:hover {
+            color: #3498DB;
+        }
+
+        .footer-bottom {
+            background-color: rgb(41, 60, 78);
+            padding: 20px 0;
+        }
+
+        .footer-bottom p {
+            margin: 0;
+            font-size: 1rem;
+            color: #BDC3C7;
+        }
+
+        @media (max-width: 768px) {
+            .footer-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer-section {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        .navbar-nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            width: 100%;
+        }
+
+        .navbar-nav .btn {
+            padding: 6px 12px;
+            font-size: 14px;
+        }
+
+        .navbar-toggler {
+            border-color: #4169E1;
+        }
+
+        .navbar {
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Redução de Gastos Desnecessários</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary mb-4">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="btn btn-outline-primary" aria-current="page"
+                        href=index.html#">Home</a>
+                    <a class="btn btn-outline-primary" href="sobre.html#">Sobre</a>
+                    <a class="btn btn-outline-primary" href="testeprojecao.html#">Projeção de Investimentos</a>
+                    <a class="btn btn-outline-primary" href="gastosmensais.html#">Calculadora de Gastos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="section">
+            <h2>Como Reduzir Gastos e Controlar suas Finanças: Uma Jornada Pessoal</h2>
+            <p>Reducir gastos não é apenas uma questão de cortar despesas, mas sim de adotar hábitos inteligentes que
+                garantam uma saúde financeira estável. Imagine, por exemplo, a história de Lucas, um jovem que decidiu
+                mudar sua abordagem em relação às finanças pessoais após perceber que suas dívidas estavam crescendo mês
+                após mês. Ele estava gastando mais do que ganhava e sabia que precisava agir antes que a situação
+                piorasse.</p>
+
+            <h3>1. Analise seus Gastos</h3>
+            <p>Lucas começou sua jornada financeira com um passo simples, mas crucial: entender onde seu dinheiro estava
+                indo. Ele registrou todas as suas despesas durante um mês inteiro, desde as compras de supermercado até
+                as assinaturas mensais de serviços de streaming. Ao olhar para a planilha, ele ficou surpreso com quanto
+                estava gastando em jantares fora de casa e em compras por impulso. Ao todo, ele percebeu que estava
+                gastando quase 20% do seu salário em coisas não essenciais.</p>
+
+            <h3>2. Estabeleça Prioridades</h3>
+            <p>Após ver onde estava gastando demais, Lucas decidiu estabelecer prioridades. Ele sabia que precisava
+                garantir o pagamento das contas essenciais, como aluguel, alimentação e transporte. Mas percebeu que
+                poderia cortar algumas despesas não essenciais, como o plano de TV a cabo que mal usava e as várias
+                assinaturas de apps de entretenimento. Lucas decidiu reduzir os gastos com lazer, mas ainda assim deixou
+                uma parte do seu orçamento para aproveitar as coisas que realmente amava, como sair com os amigos uma
+                vez por mês.</p>
+
+            <h3>3. Crie um Orçamento Mensal</h3>
+            <p>Com essas decisões em mente, Lucas criou um orçamento mensal que estipulava quanto ele gastaria em cada
+                categoria de despesa. Ele seguiu a regra 50/30/20, dividindo sua renda em 50% para necessidades (como
+                moradia e alimentação), 30% para desejos (como lazer e hobbies) e 20% para poupança e investimentos. Ao
+                ter esse controle, ele se sentiu mais seguro para tomar decisões financeiras.</p>
+
+            <h3>4. Negocie suas Contas e Dívidas</h3>
+            <p>Lucas também percebeu que estava pagando mais do que precisava em algumas contas fixas. Decidiu ligar
+                para o fornecedor da sua internet e negociar um pacote mais barato. Para sua surpresa, conseguiu uma
+                redução de 15% na mensalidade apenas por pedir uma revisão. Além disso, ele reorganizou suas dívidas,
+                renegociando uma taxa de juros menor e estabelecendo um cronograma de pagamento mais viável.</p>
+
+            <h3>5. Evite Compras por Impulso</h3>
+            <p>Um dos maiores desafios de Lucas era controlar suas compras impulsivas. Sempre que via uma promoção ou um
+                desconto, ele não resistia. Para combater isso, ele passou a fazer compras com listas, evitando levar
+                para casa coisas que não estava planejando. Ele também decidiu não comprar nada por um período de 30
+                dias para se desafiar a eliminar os gastos desnecessários.</p>
+
+            <h3>6. Reveja seus Assinaturas e Planos de Assinatura</h3>
+            <p>Ao revisar suas finanças, Lucas percebeu que tinha várias assinaturas mensais, muitas das quais não
+                utilizava com frequência. Ele decidiu cancelar duas delas — um serviço de streaming e um aplicativo de
+                delivery — e percebeu que, ao final do mês, estava economizando R$ 150,00. Esse dinheiro foi
+                redirecionado para sua poupança.</p>
+
+            <h3>7. Invista em Compras Inteligentes</h3>
+            <p>Com mais controle sobre suas finanças, Lucas também passou a ser mais inteligente nas compras. Em vez de
+                comprar algo por impulso, ele passou a pesquisar os melhores preços antes de qualquer compra. Durante
+                uma promoção, conseguiu comprar um novo celular com um desconto significativo, além de aproveitar cupons
+                de desconto online. Ele também começou a trocar marcas caras por alternativas mais baratas, mas de boa
+                qualidade.</p>
+
+            <h3>8. Aumente sua Renda</h3>
+            <p>Com as finanças mais controladas, Lucas também buscou formas de aumentar sua renda. Começou a trabalhar
+                como freelancer em seu tempo livre, fazendo design gráfico para pequenas empresas. Isso lhe trouxe uma
+                renda extra que ele usou para quitar dívidas mais rapidamente e investir no futuro
+        </section>
+
+    </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Sobre o Dev</h3>
+                <p>Meu nome é Renato Alexandre de Aquino. Abaixo seguem alguns links para que você conheça melhor meu conhecimento e meus projetos de desenvolvimento.
+                    A Husky Finance é um dos projetos que escolhi tanto como trabalho estudantil quanto para meu portfólio. Trata-se de um projeto mais simples, mas 
+                    que envolve o uso de back-end, front-end e boas práticas de desenvolvimento, como metodologias ágeis e uma boa organização.
+                </p>
+                <div class="social-icons mt-3">
+                    <a href="https://github.com/Renato4qu1n0" target="_blank" class="btn btn-outline-light btn-lg me-2">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/renato-alexandre-aquino/" target="_blank" class="btn btn-outline-light btn-lg me-2">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.seusite.com" target="_blank" class="btn btn-outline-light btn-lg">
+                        <i class="bi bi-globe"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="dicas.html">Dicas Financeiras</a></li>
+                    <li><a href="testeprojecao.html">Projeção de Investimentos</a></li>
+                    <li><a href="gastosmensais.html">Calculadora de Gastos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Husky Finance.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
